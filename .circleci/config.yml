@@ -5,13 +5,13 @@ jobs:
   
   # This job install the Python dependencies, runs the unit tests,
   # and code-style checks.
-  python3:
+  python38:
   
     docker:
       # Our code will run in a Docker image with Python installed.
       # This image is from the "convenience images" provided by
       # CircleCI (see https://github.com/CircleCI-Public/cimg-python)
-      - image: cimg/python:3.8.0
+      - image: cimg/python:3.8
     
     # The steps consist of various commands:
     steps:
@@ -48,9 +48,9 @@ jobs:
           
 # This job install the Python dependencies, runs the unit tests,
   # and code-style checks.
-  python2:
+  python37:
     docker:
-      - image: cimg/python:2.7
+      - image: cimg/python:3.7
     steps:
       - checkout
       - run:
@@ -69,5 +69,5 @@ workflows:
   main:
     jobs:
       # You could have multiple jobs, e.g., to run tests for various Python versions.
-      - "python3"
-      - "python2"
+      - "python38"
+      - "python37"

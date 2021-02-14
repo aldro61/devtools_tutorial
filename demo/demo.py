@@ -6,7 +6,7 @@ class DummyNet(nn.Module):
     def __init__(self):
         super().__init__()
 
-    def forward(self, x):
+    def forward(self, x: torch.Tensor):
         if len(x.shape) != 2:
             raise ValueError("Shape must be 2 dim.")
 
