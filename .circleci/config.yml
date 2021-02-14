@@ -5,7 +5,7 @@ jobs:
   
   # This job install the Python dependencies, runs the unit tests,
   # and code-style checks.
-  python-3.8:
+  python3:
   
     docker:
       # Our code will run in a Docker image with Python installed.
@@ -49,7 +49,7 @@ jobs:
           
 # This job install the Python dependencies, runs the unit tests,
   # and code-style checks.
-  python-2.7:
+  python2:
     docker:
       - image: cimg/python:2.7.0
     steps:
@@ -71,5 +71,5 @@ workflows:
   main:
     jobs:
       # You could have multiple jobs, e.g., to run tests for various Python versions.
-      - "python-3.8"
-      - "python-2.7"
+      - "python3"
+      - "python2"
