@@ -1,4 +1,5 @@
-flake8==3.8.4
+# You can specify version with package==x.y.z
+flake8
 numpy
-pytest==6.2.2
-torch==1.7.1
+pytest
+torch
