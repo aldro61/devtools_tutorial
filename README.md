@@ -21,6 +21,8 @@ Visual Studio Code (VS Code) is a lightweight IDE developped by Microsoft. It su
 * [Plugins](https://marketplace.visualstudio.com/vscode): I mostly use the following:
   * [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
   * [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+  
+<iframe src="https://channel9.msdn.com/Events/Connect/2017/T254/player" width="960" height="540" allowFullScreen frameBorder="0" title="Introducing Visual Studio Live Share - Microsoft Channel 9 Video"></iframe>
 
 ## Python Development
 
