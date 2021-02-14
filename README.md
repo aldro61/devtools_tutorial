@@ -37,3 +37,5 @@ Pytest is a tool for unit testing in Python that is very simple to use ([Documen
 * Docker
 * CircleCI
 
+![circleci1](test_low.gif)
+
