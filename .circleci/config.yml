@@ -1,0 +1,53 @@
+version: 2.1
+
+# Jobs are a sequence of tasks that can be executed in parallel.
+jobs:
+  
+  # This job install the Python dependencies, runs the unit tests,
+  # and code-style checks.
+  run-tests:
+  
+    docker:
+      # Our code will run in a Docker image with Python installed.
+      # This image is from the "convenience images" provided by
+      # CircleCI (see https://github.com/CircleCI-Public/cimg-python)
+      - image: cimg/python:3.8.0
+    
+    # The steps consist of various commands:
+    steps:
+      # > Acquire the code from the GitHub repo
+      - checkout
+      
+      # > Install the wget command. We don't actually need it, but it's
+      #   included as an example to show that you can install any deps
+      #   as if you were running on a Ubuntu machine.
+      - run:
+          command: |
+            sudo apt-get update -y --fix-missing
+            sudo apt-get install -y wget
+            sudo apt-get clean -y
+          name: Install wget
+          
+      # > Install all the Python dependencies for the current project.
+      #   These should be listed in "requirements.txt".
+      - run:
+          command: |
+            pip install --upgrade pip
+            pip install -r requirements.txt
+          name: Install dependencies
+          
+      # > Run unit tests using pytest
+      - run:
+          command: pytest -v .
+          name: Unit tests
+      
+      # > Run code-style checks using flake8
+      - run:
+          command: flake8 .
+          name: Code style
+
+workflows:
+  main:
+    jobs:
+      # You could have multiple jobs, e.g., to run tests for various Python versions.
+      - run-tests
