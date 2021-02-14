@@ -50,7 +50,7 @@ jobs:
   # and code-style checks.
   python2:
     docker:
-      - image: cimg/python:2.7.3
+      - image: cimg/python:2.7
     steps:
       - checkout
       - run:
