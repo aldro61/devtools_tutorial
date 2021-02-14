@@ -5,7 +5,7 @@ jobs:
   
   # This job install the Python dependencies, runs the unit tests,
   # and code-style checks.
-  run-tests:
+  python-3.8:
   
     docker:
       # Our code will run in a Docker image with Python installed.
@@ -46,9 +46,30 @@ jobs:
       - run:
           command: flake8 .
           name: Code style
+          
+# This job install the Python dependencies, runs the unit tests,
+  # and code-style checks.
+  python-2.7:
+    docker:
+      - image: cimg/python:2.7.0
+    steps:
+      - checkout
+      - run:
+          command: |
+            pip install --upgrade pip
+            pip install flake8 pytest
+            pip install -r requirements.txt
+          name: Install dependencies
+      - run:
+          command: pytest -v .
+          name: Unit tests
+      - run:
+          command: flake8 .
+          name: Code style
 
 workflows:
   main:
     jobs:
       # You could have multiple jobs, e.g., to run tests for various Python versions.
-      - run-tests
+      - "python-3.8"
+      - "python-2.7"
