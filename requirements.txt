@@ -1,4 +1,4 @@
 flake8==3.8.4
 numpy
 pytest==6.2.2
-torch==1.0.2
+torch==1.7.1
