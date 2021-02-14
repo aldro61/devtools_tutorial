@@ -4,7 +4,7 @@ import torch
 from demo import DummyNet
 
 
-def test_init() -> None:
+def test_init():
     """
     Test that the network can be initialized correctly
 
@@ -14,7 +14,7 @@ def test_init() -> None:
     DummyNet()
 
 
-def test_forward_input_validation() -> None:
+def test_forward_input_validation():
     """
     Test that input valiatin works in the forward pass
 
@@ -25,7 +25,7 @@ def test_forward_input_validation() -> None:
         m(torch.ones(10,))
 
 
-def test_forward_output() -> None:
+def test_forward_output():
     """
     Test that the forward pass outputs values in [0, 1]
 
