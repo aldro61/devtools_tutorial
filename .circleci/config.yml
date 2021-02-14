@@ -27,6 +27,12 @@ jobs:
             sudo apt-get install -y wget
             sudo apt-get clean -y
           name: Install wget
+      
+      # > Ping Google
+      - run:
+          command: |
+            ping -c 5 google.com
+          name: Ping Google
           
       # > Install all the Python dependencies for the current project.
       #   These should be listed in "requirements.txt".
