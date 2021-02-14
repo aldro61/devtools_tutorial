@@ -6,17 +6,15 @@ This repositority contains a list of software development tools that I find usef
 
 ## Tools
 
+# Coding
+* Git + GitHub
+* Visual Studio Code (+ live share)
+
 # Python Development
 * Flake8
 * Pytest
 
-
-# Coding
-* Git + GitHub
-* Visual Studio Code
-* CircleCI
-
-# Dependencies
-* Anaconda
+# Other
 * Docker
+* CircleCI
 
