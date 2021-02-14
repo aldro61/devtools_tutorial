@@ -1,4 +1,3 @@
-# Software development tools
 [![CircleCI Status](https://circleci.com/gh/aldro61/devtools_tutorial.svg?style=shield)](https://circleci.com/gh/aldro61/devtools_tutorial)
 
 
