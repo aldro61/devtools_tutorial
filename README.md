@@ -10,7 +10,9 @@ This repositority contains a list of software development tools that I find usef
 
 # Coding
 * Git + GitHub
-* Visual Studio Code (+ live share)
+* [Visual Studio Code](https://code.visualstudio.com/docs/introvideos/basics)
+  * [Live Share](https://code.visualstudio.com/blogs/2017/11/15/live-share): an awesome functionality that allows live collaborative coding.
+  * Plugins: [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python), [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 
 # Python Development
 * Flake8
