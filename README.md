@@ -60,7 +60,7 @@ Pytest is a tool for unit testing in Python that is very simple to use ([Documen
 
 ## CircleCI
 
-<img src="gifs/test_low.gif" width="400" />
+<img src="gifs/test_low.gif" width="650" />
 
 
 <style>
