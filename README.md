@@ -21,7 +21,7 @@ Visual Studio Code (VS Code) is a lightweight IDE developped by Microsoft. It su
 
 ### Live sharing
 
-An awesome functionality that allows multiple people to code collaboratively in real time (à la Google Docs). You may find this extremely useful when showing off a new functionality to your colleagues or to do [remote pair programming](https://en.wikipedia.org/wiki/Pair_programming) [[More details]](https://visualstudio.microsoft.com/services/live-share/)
+An awesome functionality that allows multiple people to code collaboratively in real time (à la Google Docs). You may find this extremely useful when showing off a new functionality to your colleagues or to do remote pair programming. [[More details]](https://visualstudio.microsoft.com/services/live-share/)
 
 <a href="https://visualstudio.microsoft.com/services/live-share/" target="_blank"><img src="https://visualstudio.microsoft.com/wp-content/uploads/2018/11/v2-Edit-Comp_FINAL-optimized840.gif" width=650 /></a>
 
