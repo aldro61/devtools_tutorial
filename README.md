@@ -6,6 +6,8 @@
 
 This repositority contains a list of software development tools that I find useful for collaborative projects. I have used them for both academic and industrial projects. I hope that you will find these resources useful and that you will try to apply them in the context of your course project.
 
+**NOTE: THIS IS STILL A DRAFT. MORE CONTENT WILL BE ADDED SOON*
+
 # Coding
 
 ## Git + GitHub
