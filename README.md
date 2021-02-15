@@ -22,7 +22,7 @@ Visual Studio Code (VS Code) is a lightweight IDE developped by Microsoft. It su
   * [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
   * [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
   
-<iframe src="https://channel9.msdn.com/Events/Connect/2017/T254/player" width="960" height="540" allowFullScreen frameBorder="0" title="Introducing Visual Studio Live Share - Microsoft Channel 9 Video"></iframe>
+<iframe style="display:block;" src="https://channel9.msdn.com/Events/Connect/2017/T254/player" width="480" height="270" allowFullScreen frameBorder="0" title="Introducing Visual Studio Live Share - Microsoft Channel 9 Video"></iframe>
 
 ## Python Development
 
