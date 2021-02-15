@@ -1,9 +1,8 @@
 [![CircleCI Status](https://circleci.com/gh/aldro61/devtools_tutorial.svg?style=shield)](https://circleci.com/gh/aldro61/devtools_tutorial)
 
+<iframe style="display:block;" width="560" height="315" src="https://www.youtube.com/embed/XnHjatTco_0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 This repositority contains a list of software development tools that I find useful for collaborative projects, both in research and the industry. The short video linked below contains a brief demo for each tool and references to extensive tutorials can be found below.
-
-[![Google tech talk](https://img.youtube.com/vi/uomMdBdEwnk/0.jpg)](https://www.youtube.com/watch?v=uomMdBdEwnk)
 
 ## Coding
 
