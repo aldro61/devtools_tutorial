@@ -1,10 +1,3 @@
-<style>
-  .iframe-container {
-		text-align:center;
-  		width:100%;
-  }
-</style>
-
 <div class="iframe-container">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/XnHjatTco_0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
@@ -13,14 +6,14 @@
 
 This repositority contains a list of software development tools that I find useful for collaborative projects. I have used them for both academic and industrial projects. I hope that you will find these resources useful and that you will try to apply them in the context of your course project.
 
-## Coding
+# Coding
 
-### Git + GitHub
+## Git + GitHub
 
 * [Tutorial: basics of git and GitHub](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners)
 * [Collaborating with GitHub](https://guides.github.com/introduction/flow/)
 
-### Visual Studio Code
+## Visual Studio Code
 
 Visual Studio Code (VS Code) is a lightweight IDE developped by Microsoft. It supports multiple languages and file types via a plugin system.
 
@@ -29,12 +22,22 @@ Visual Studio Code (VS Code) is a lightweight IDE developped by Microsoft. It su
 * [Plugins](https://marketplace.visualstudio.com/vscode): I mostly use the following:
   * [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
   * [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
-  
-<iframe style="display:block;" src="https://channel9.msdn.com/Events/Connect/2017/T254/player" width="480" height="270" allowFullScreen frameBorder="0" title="Introducing Visual Studio Live Share - Microsoft Channel 9 Video"></iframe>
 
-## Python Development
+### Plugins
 
-### Flake8
+Here is a list of the plugins I use the most:
+
+  * [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+  * [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+
+### Live sharing
+<div class="iframe-container">
+	<iframe style="display:block;" src="https://channel9.msdn.com/Events/Connect/2017/T254/player" width="480" height="270" allowFullScreen frameBorder="0" title="Introducing Visual Studio Live Share - Microsoft Channel 9 Video"></iframe>
+</div>
+
+# Python Development
+
+## Flake8
 
 Flake8 is a tool that will check you Python code's style and report any issues ([Documentation](https://flake8.pycqa.org/en/latest/index.html#quickstart)).
 
@@ -47,4 +50,12 @@ Pytest is a tool for unit testing in Python that is very simple to use ([Documen
 * CircleCI
 
 ![circleci1](test_low.gif)
+
+
+<style>
+  .iframe-container {
+		text-align:center;
+  		width:100%;
+  }
+</style>
 
