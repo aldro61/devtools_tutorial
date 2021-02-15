@@ -28,7 +28,12 @@ Visual Studio Code (VS Code) is a lightweight IDE developped by Microsoft. It su
 Here is a list of the plugins I use the most:
 
   * [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+
+  Lorem ipsum foo bar bar foo
+
   * [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+
+  ![circleci1](gifs/test_low.gif)
 
 ### Live sharing
 <div class="iframe-container">
@@ -49,7 +54,7 @@ Pytest is a tool for unit testing in Python that is very simple to use ([Documen
 * Docker
 * CircleCI
 
-![circleci1](test_low.gif)
+![circleci1](gifs/test_low.gif)
 
 
 <style>
