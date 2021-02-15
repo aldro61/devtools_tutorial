@@ -46,13 +46,15 @@ Here is a list of the plugins I use the most:
 
 Flake8 is a tool that will check you Python code's style and report any issues ([Documentation](https://flake8.pycqa.org/en/latest/index.html#quickstart)).
 
-### Pytest
+## Pytest
 
 Pytest is a tool for unit testing in Python that is very simple to use ([Documentation](https://docs.pytest.org/en/stable/contents.html), [Tutorial](https://realpython.com/pytest-python-testing/)).
 
 # Other
-* Docker
-* CircleCI
+
+## Docker
+
+## CircleCI
 
 ![circleci1](gifs/test_low.gif)
 
