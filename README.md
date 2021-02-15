@@ -17,11 +17,7 @@ This repositority contains a list of software development tools that I find usef
 
 Visual Studio Code (VS Code) is a lightweight IDE developped by Microsoft. It supports multiple languages and file types via a plugin system.
 
-* [Introduction](https://code.visualstudio.com/docs/introvideos/basics)
-* [Live Share](https://code.visualstudio.com/blogs/2017/11/15/live-share): an awesome functionality that allows live collaborative coding.
-* [Plugins](https://marketplace.visualstudio.com/vscode): I mostly use the following:
-  * [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
-  * [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+[Introduction](https://code.visualstudio.com/docs/introvideos/basics)
 
 ### Plugins
 
