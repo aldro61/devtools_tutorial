@@ -27,13 +27,16 @@ Visual Studio Code (VS Code) is a lightweight IDE developped by Microsoft. It su
 
 Here is a list of the plugins I use the most:
 
-  * [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+#### Python
 
-  Lorem ipsum foo bar bar foo
+[More details](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
 
-  * [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 
-  ![circleci1](gifs/gitlens.gif)
+#### GitLens
+
+[More details](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+
+<a href="https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens" target="_blank"><img src="gifs/gitlens.gif" width=650 /></a>
 
 ### Live sharing
 
