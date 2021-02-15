@@ -39,7 +39,7 @@ Here is a list of the plugins I use the most:
 
 An awesome functionality that allows multiple people to code collaboratively in real time (à la Google Docs).
 
-<a href="https://visualstudio.microsoft.com/services/live-share/" target="_blank"><img src="https://visualstudio.microsoft.com/wp-content/uploads/2018/11/v2-Edit-Comp_FINAL-optimized840.gif" width=600 /></a>
+<a href="https://visualstudio.microsoft.com/services/live-share/" target="_blank"><img src="https://visualstudio.microsoft.com/wp-content/uploads/2018/11/v2-Edit-Comp_FINAL-optimized840.gif" width=650 /></a>
 
 # Python Development
 
