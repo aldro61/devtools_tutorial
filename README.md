@@ -33,7 +33,7 @@ Here is a list of the plugins I use the most:
 
   * [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 
-  ![circleci1](gifs/test_low.gif)
+  ![circleci1](gifs/gitlens.gif)
 
 ### Live sharing
 <div class="iframe-container">
