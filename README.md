@@ -37,15 +37,14 @@ Here is a list of the plugins I use the most:
 #### Python
 
 A Visual Studio Code extension with rich support for the Python language (for all actively supported versions of the language: >=3.6), including features such as IntelliSense, linting, debugging, code navigation, code formatting, Jupyter notebook support, refactoring, variable explorer, test explorer, and more!
+[[More details]](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
 
 <img src="./gifs/vscode_python.png" width=650 />
 
-[More details](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
-
-
 #### GitLens
 
-[More details](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+Supercharge the Git capabilities built into Visual Studio Code — Visualize code authorship at a glance via Git blame annotations and code lens, seamlessly navigate and explore Git repositories, gain valuable insights via powerful comparison commands, and so much more.
+[[More details]](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 
 <a href="https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens" target="_blank"><img src="gifs/gitlens.gif" width=650 /></a>
 
