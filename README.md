@@ -48,6 +48,12 @@ A Visual Studio Code extension with rich support for the Python language (for al
 <a href="https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens" target="_blank"><img src="gifs/gitlens.gif" width=650 /></a>
 
 
+#### IntelliCode
+
+IntelliCode saves you time by putting what you’re most likely to use at the top of your completion list. IntelliCode recommendations are based on thousands of open source projects on GitHub each with over 100 stars. When combined with the context of your code, the completion list is tailored to promote common practices. [[More details]](https://visualstudio.microsoft.com/services/intellicode/)
+
+<img src="https://visualstudio.microsoft.com/wp-content/uploads/2018/12/visual-studio-icode-ntellisense-python.png" width=650 />
+
 #### TODO Highlight
 
 Highlight TODO, FIXME and other annotations within your code. [More details](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)
