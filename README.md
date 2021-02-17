@@ -56,6 +56,14 @@ Pytest is a tool for unit testing in Python that is very simple to use ([Documen
 
 # Other
 
+## Makefiles
+
+A makefile is a file that serves to automate the execution of multiple commands. Groups of commands, referred to as *targets* are named and can be invoked with a `make <name>` command. Moreover, targets may have dependencies and will only be re-executed if these dependencies have changed. For example, in the [example makefile](./makefile) provided with this tutorial, there are four targets. The first two produce log files for flake8 and pytest and will only be executed if the Python code files in the `demo` directory have changed. The `logs.zip` target depends on the log files and produces a zip file that contains the logs. Finally, the `clean` target cleans up the log files and keeps only the zip file.
+
+[[Tutorial](https://makefiletutorial.com/)]
+
+<img src="./gifs/makefile.gif" width=650 />
+
 ## Docker
 
 ## CircleCI
