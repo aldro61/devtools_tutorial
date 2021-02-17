@@ -60,6 +60,9 @@ Flake8 is a Python library that wraps PyFlakes, pycodestyle and Ned Batchelderâ€
 
 Pytest is a tool for unit testing in Python that is very simple to use ([Documentation](https://docs.pytest.org/en/stable/contents.html), [Tutorial](https://realpython.com/pytest-python-testing/)).
 
+<img src="./gifs/pytest.gif" width=650 />
+
+
 # Other
 
 ## Makefiles
