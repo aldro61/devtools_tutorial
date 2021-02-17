@@ -15,7 +15,7 @@ This repositority contains a list of software development tools that I find usef
 
 ## Visual Studio Code
 
-Visual Studio Code (VS Code) is a lightweight IDE developped by Microsoft. It supports multiple languages and file types via a plugin system.
+Visual Studio Code (VS Code) is a lightweight IDE developped by Microsoft. It supports multiple programming languages and file types via a plugin system.
 
 * [Introduction](https://code.visualstudio.com/docs/introvideos/basics)
 * [Live Share](https://code.visualstudio.com/blogs/2017/11/15/live-share): an awesome functionality that allows live collaborative coding.
