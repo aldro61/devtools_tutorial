@@ -2,7 +2,7 @@
   <iframe width="560" height="315" src="https://www.youtube.com/embed/XnHjatTco_0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-<a href="#git--github">[git/github]</a>&nbsp;<a href="#visual-studio-code">[vscode]</a>&nbsp;<a href="#flake8">[flake8]</a>&nbsp;<a href="#pytest">[pytest]</a>&nbsp;<a href="#makefiles">[makefiles]</a>&nbsp;<a href="#flake8">[docker]</a>&nbsp;<a href="#flake8">[circleci]</a>
+<a href="#git--github">[git/github]</a>&nbsp;<a href="#visual-studio-code">[vscode]</a>&nbsp;<a href="#flake8">[flake8]</a>&nbsp;<a href="#pytest">[pytest]</a>&nbsp;<a href="#makefiles">[makefiles]</a>&nbsp;<a href="#docker">[docker]</a>&nbsp;<a href="#circleci">[circleci]</a>
 
 This repositority contains a list of software development tools that I find useful for collaborative projects. I have used them for both academic and industrial projects. I hope that you will find these resources useful and that you will try to apply them in the context of your course project.
 
