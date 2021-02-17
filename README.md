@@ -19,7 +19,7 @@ This repositority contains a list of software development tools that I find usef
 
 Visual Studio Code (VS Code) is a lightweight IDE developped by Microsoft. It supports multiple programming languages and file types via a plugin system.
 
-[Introduction](https://code.visualstudio.com/docs/introvideos/basics)
+[[Introduction]](https://code.visualstudio.com/docs/introvideos/basics)
 
 ### Live sharing
 
@@ -63,7 +63,7 @@ Pytest is a tool for unit testing in Python that is very simple to use ([Documen
 
 ## Makefiles
 
-A makefile consists of a set of rules (referred to as targets) that can be run using the `make target_name` command. Each target can have dependencies and is only rerun if these have changed. [example makefile](./makefile) provided with this tutorial. You will see that there are four targets. The first two produce log files for flake8 and pytest and will only be executed if the Python code files in the `demo` directory have changed. The `logs.zip` target depends on the log files and produces a zip file that contains the logs. Finally, the `clean` target cleans up the log files and keeps only the zip file.
+A makefile consists of a set of rules (referred to as targets) that can be run using the `make target_name` command. Each target can have dependencies and is only rerun if these have changed. The [example makefile](./makefile) provided with this tutorial. You will see that there are four targets. The first two produce log files for flake8 and pytest and will only be executed if the Python code files in the `demo` directory have changed. The `logs.zip` target depends on the log files and produces a zip file that contains the logs. Finally, the `clean` target cleans up the log files and keeps only the zip file.
 
 [[Tutorial](https://makefiletutorial.com/)]
 
