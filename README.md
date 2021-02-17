@@ -56,7 +56,7 @@ IntelliCode saves you time by putting what you’re most likely to use at the to
 
 #### TODO Highlight
 
-Highlight TODO, FIXME and other annotations within your code. [More details](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)
+Highlight TODO, FIXME and other annotations within your code. [[More details]](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)
 
 <img src="./gifs/vscode_todo_highlight.png" width=650 />
 
