@@ -48,6 +48,13 @@ A Visual Studio Code extension with rich support for the Python language (for al
 <a href="https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens" target="_blank"><img src="gifs/gitlens.gif" width=650 /></a>
 
 
+#### TODO Highlight
+
+Highlight TODO, FIXME and other annotations within your code. [More details](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)
+
+<img src="./gifs/vscode_todo_highlight.png" width=650 />
+
+I also like to combine this one with the [TODO Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree) extension.
 
 # Python Development
 
