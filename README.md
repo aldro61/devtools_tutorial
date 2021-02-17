@@ -50,7 +50,7 @@ Here is a list of the plugins I use the most:
 
 Flake8 is a Python library that wraps PyFlakes, pycodestyle and Ned Batchelder’s McCabe script. It is a great toolkit for checking your code base against coding style (PEP8), programming errors (like “library imported but unused” and “Undefined name”) and to check cyclomatic complexity. -- [[source](https://simpleisbetterthancomplex.com/packages/2016/08/05/flake8.html)]
 
-([Documentation](https://flake8.pycqa.org/en/latest/index.html#quickstart)).
+[[Documentation]](https://flake8.pycqa.org/en/latest/index.html#quickstart).
 
 <img src="./gifs/flake8.gif" width=650 />
 
