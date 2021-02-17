@@ -2,11 +2,11 @@
   <iframe width="560" height="315" src="https://www.youtube.com/embed/XnHjatTco_0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-[![CircleCI Status](https://circleci.com/gh/aldro61/devtools_tutorial.svg?style=shield)](https://circleci.com/gh/aldro61/devtools_tutorial)
-
 This repositority contains a list of software development tools that I find useful for collaborative projects. I have used them for both academic and industrial projects. I hope that you will find these resources useful and that you will try to apply them in the context of your course project.
 
 **NOTE: THIS IS STILL A DRAFT. MORE CONTENT WILL BE ADDED SOON*
+
+<a href="#git--github">[git/github]</a>&nbsp;<a href="#visual-studio-code">[vscode]</a>&nbsp;<a href="#flake8">[flake8]</a>&nbsp;<a href="#pytest">[pytest]</a>&nbsp;<a href="#makefiles">[makefiles]</a>&nbsp;<a href="#flake8">[docker]</a>&nbsp;<a href="#flake8">[circleci]</a>
 
 # Coding
 
@@ -75,6 +75,7 @@ A makefile consists of a set of rules (referred to as targets) that can be run u
 
 <img src="gifs/test_low.gif" width="650" />
 
+[![CircleCI Status](https://circleci.com/gh/aldro61/devtools_tutorial.svg?style=shield)](https://circleci.com/gh/aldro61/devtools_tutorial)
 
 <style>
   .iframe-container {
