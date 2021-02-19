@@ -2,11 +2,9 @@
   <iframe width="560" height="315" src="https://www.youtube.com/embed/XnHjatTco_0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-<a href="#git--github">[git/github]</a>&nbsp;<a href="#visual-studio-code">[vscode]</a>&nbsp;<a href="#flake8">[flake8]</a>&nbsp;<a href="#pytest">[pytest]</a>&nbsp;<a href="#makefiles">[makefiles]</a>&nbsp;<a href="#docker">[docker]</a>&nbsp;<a href="#circleci">[circleci]</a>
+<a href="#git--github">[git/github]</a>&nbsp;<a href="#visual-studio-code">[vscode]</a>&nbsp;<a href="#flake8">[flake8]</a>&nbsp;<a href="#pytest">[pytest]</a>&nbsp;<a href="#makefiles">[makefiles]</a>&nbsp;<a href="#docker">[docker]</a>&nbsp;<a href="#circleci-tying-it-all-together">[circleci]</a>
 
 This repositority contains a list of software development tools that I find useful for collaborative projects. I have used them for both academic and industrial projects. I hope that you will find these resources useful and that you will try to apply them in the context of your course project.
-
-**NOTE: THIS IS STILL A DRAFT. MORE CONTENT WILL BE ADDED SOON*
 
 
 # Coding
@@ -97,7 +95,7 @@ Take a look at the [example makefile](https://github.com/aldro61/devtools_tutori
 
 TODO
 
-## CircleCI
+## CircleCI - Tying it all together
 
 [CircleCI](https://circleci.com/) is a [continuous integration](https://en.wikipedia.org/wiki/Continuous_integration) (CI) tool that is free to use with public Git repositories. Basically, CI tools enable you to run a series of commands each time changes to the code are pushed to GitHub. 
 
@@ -112,6 +110,8 @@ You can view the status of CI checks beside each commit in the commit history. I
 Finally, for any repository in which CircleCI is used, you can get a status badge that indicates the "build status". This may indicate "failed" if, e.g., your unit tests failed.
 
 [![CircleCI Status](https://circleci.com/gh/aldro61/devtools_tutorial.svg?style=shield)](https://circleci.com/gh/aldro61/devtools_tutorial)
+
+[[Tutorial]](https://circleci.com/docs/2.0/getting-started/)
 
 <style>
   .iframe-container {
