@@ -97,6 +97,8 @@ TODO
 
 ## CircleCI - Tying it all together
 
+[[Tutorial]](https://circleci.com/docs/2.0/getting-started/)
+
 [CircleCI](https://circleci.com/) is a [continuous integration](https://en.wikipedia.org/wiki/Continuous_integration) (CI) tool that is free to use with public Git repositories. Basically, CI tools enable you to run a series of commands each time changes to the code are pushed to GitHub. 
 
 Take a look at the [example configuration](https://github.com/aldro61/devtools_tutorial/blob/main/.circleci/config.yml) file that is provided with this tutorial. Many comments were included to help you understand each part. Whenever changes to the code are pushed, CircleCI will automatically pull the latest version of the code, run unit tests using [pytest](#pytest), and run code style verifications with [flake8](#flake8). These steps will be run in Python 3.7 and 3.8 environments. Moreover, we configure CircleCI to use a [Docker](#docker) image that comes with Python preinstalled (e.g., `cimg/python:3.8`). You could specify another image based on your needs (e.g., a Docker image tailored to your project). Notice how the runtime environment is simply a Linux machine in which you can install any dependency. For example, the `Python38` workflow installs the `wget` command using `apt-get install`.
@@ -110,8 +112,6 @@ You can view the status of CI checks beside each commit in the commit history. I
 Finally, for any repository in which CircleCI is used, you can get a status badge that indicates the "build status". This may indicate "failed" if, e.g., your unit tests failed.
 
 [![CircleCI Status](https://circleci.com/gh/aldro61/devtools_tutorial.svg?style=shield)](https://circleci.com/gh/aldro61/devtools_tutorial)
-
-[[Tutorial]](https://circleci.com/docs/2.0/getting-started/)
 
 <style>
   .iframe-container {
