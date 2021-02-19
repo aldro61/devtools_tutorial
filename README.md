@@ -105,7 +105,7 @@ Take a look at the [example configuration](https://github.com/aldro61/devtools_t
 <img src="gifs/circleci.gif" width="650" />
 
 You can view the status of CI checks beside each commit in the commit history. It is even possible to prevent merging pull requests until all checks have passed.
-<img src="gifs/circleci_commit.gif" width="650" />
+<img src="gifs/circleci_commits.gif" width="650" />
 
 Notice how the CircleCI runtime environment is simply a Linux machine in which you can install any dependency. For example, the Python 3.8 example also installs the `wget` command using `apt-get install`. In fact, in the example, we configure CircleCI to use a [Docker](#docker) image that comes with Python preinstalled (e.g., `cimg/python:3.8`). You could specify another image based on your needs (e.g., a Docker image tailored to your project).
 
