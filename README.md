@@ -87,7 +87,7 @@ Pytest is a tool for unit testing in Python that is very simple to use ([Documen
 
 A makefile consists of a set of rules (referred to as targets) that can be run using the `make target_name` command. Each target can have dependencies and is only rerun if these have changed. 
 
-Take a look at the [example makefile](./makefile) provided with this tutorial. You will see that there are four targets. The first two produce log files for flake8 and pytest and will only be executed if the Python code files in the `demo` directory have changed. The `logs.zip` target depends on the log files and produces a zip file that contains the logs. Note that, in the example below, I run each target separately, but running `make logs.zip` would have autmatically run all its dependencies.
+Take a look at the [example makefile](https://github.com/aldro61/devtools_tutorial/blob/main/makefile) provided with this tutorial. You will see that there are four targets. The first two produce log files for flake8 and pytest and will only be executed if the Python code files in the `demo` directory have changed. The `logs.zip` target depends on the log files and produces a zip file that contains the logs. Note that, in the example below, I run each target separately, but running `make logs.zip` would have autmatically run all its dependencies.
 
 [[Tutorial](https://makefiletutorial.com/)]
 
@@ -99,7 +99,7 @@ TODO
 
 ## CircleCI
 
-CircleCI is a [continuous integration](https://en.wikipedia.org/wiki/Continuous_integration) (CI) tool that is free to use with public Git repositories. Basically, CI tools enable you to run a series of commands each time changes to the code are pushed to GitHub. 
+[CircleCI](https://circleci.com/) is a [continuous integration](https://en.wikipedia.org/wiki/Continuous_integration) (CI) tool that is free to use with public Git repositories. Basically, CI tools enable you to run a series of commands each time changes to the code are pushed to GitHub. 
 
 Take a look at the [example configuration](https://github.com/aldro61/devtools_tutorial/blob/main/.circleci/config.yml) file that is provided with this tutorial. Many comments were included to help you understand each part. Notice how the CircleCI runtime environment is simply a Linux machine in which you can install any dependency. For example, the Python 3.8 example also installs the `wget` command using `apt-get install`. In fact, in the example, we configure CircleCI to use a [Docker](#docker) image that comes with Python preinstalled (e.g., `cimg/python:3.8`). You could specify another image based on your needs (e.g., a Docker image tailored to your project).
 
