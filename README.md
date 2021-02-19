@@ -100,7 +100,9 @@ Docker is an extremely useful tool that I use daily. This video by `TechSquidTV`
 </div>
 
 
-The [ORCA image](https://hub.docker.com/r/bcgsc/orca/) comes with hundreds of bioinformatics tools preinsalled ([full list](https://bcgsc.github.io/orca/)) [[Paper]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6821186/).
+The [ORCA image](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6821186/) comes with hundreds of bioinformatics tools preinsalled ([full list](https://bcgsc.github.io/orca/)). You can find it on [Dockerhub](https://hub.docker.com/r/bcgsc/orca/) and use it as base image for your own Docker image by using the `FROM bcgsc/orca` at the top of your `Dockerfile`.
+
+[[Tutorial]](https://towardsdatascience.com/docker-for-data-science-a-step-by-step-guide-1e5f7f3baf8e)
 
 ## CircleCI - Tying it all together
 
