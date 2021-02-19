@@ -93,7 +93,13 @@ Take a look at the [example makefile](https://github.com/aldro61/devtools_tutori
 
 ## Docker
 
-TODO
+Docker is an extremely useful tool that I use daily. This video by `TechSquidTV` explains it way better than I could. See please watch this: 
+
+<div class="iframe-container">
+  <iframe width="560" height="315" src="https://www.youtube.com/watch?v=_dfLOzuIg2o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+The [ORCA image](https://hub.docker.com/r/bcgsc/orca/) comes with hundreds of bioinformatics tools preinsalled ([full list](https://bcgsc.github.io/orca/)) [[Paper]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6821186/).
 
 ## CircleCI - Tying it all together
 
