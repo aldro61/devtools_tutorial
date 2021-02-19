@@ -110,7 +110,8 @@ You can view the status of CI checks beside each commit in the commit history. I
 <img src="gifs/circleci_commits.gif" width="650" />
 
 Finally, for any repository in which CircleCI is used, you can get a status badge that indicates the "build status". This may indicate "failed" if, e.g., your unit tests failed.
-[![CircleCI Status](https://circleci.com/gh/aldro61/devtools_tutorial.svg?style=shield)](https://circleci.com/gh/aldro61/devtools_tutorial)
+
+![CircleCI Status](https://circleci.com/gh/aldro61/devtools_tutorial.svg?style=shield)](https://circleci.com/gh/aldro61/devtools_tutorial)
 
 <style>
   .iframe-container {
