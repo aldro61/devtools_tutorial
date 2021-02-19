@@ -95,9 +95,7 @@ Take a look at the [example makefile](https://github.com/aldro61/devtools_tutori
 
 Docker is an extremely useful tool that I use daily. This video by `TechSquidTV` explains it way better than I could. See please watch this: 
 
-<div class="iframe-container">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/_dfLOzuIg2o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_dfLOzuIg2o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 The [ORCA image](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6821186/) comes with hundreds of bioinformatics tools preinsalled ([full list](https://bcgsc.github.io/orca/)). You can find it on [Dockerhub](https://hub.docker.com/r/bcgsc/orca/) and use it as base image for your own Docker image by using the `FROM bcgsc/orca` at the top of your `Dockerfile`.
