@@ -99,6 +99,7 @@ Docker is an extremely useful tool that I use daily. This video by `TechSquidTV`
   <iframe width="560" height="315" src="https://www.youtube.com/embed/_dfLOzuIg2o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
+
 The [ORCA image](https://hub.docker.com/r/bcgsc/orca/) comes with hundreds of bioinformatics tools preinsalled ([full list](https://bcgsc.github.io/orca/)) [[Paper]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6821186/).
 
 ## CircleCI - Tying it all together
@@ -109,11 +110,15 @@ The [ORCA image](https://hub.docker.com/r/bcgsc/orca/) comes with hundreds of bi
 
 Take a look at the [example configuration](https://github.com/aldro61/devtools_tutorial/blob/main/.circleci/config.yml) file that is provided with this tutorial. Many comments were included to help you understand each part. Whenever changes to the code are pushed, CircleCI will automatically pull the latest version of the code, run unit tests using [pytest](#pytest), and run code style verifications with [flake8](#flake8). These steps will be run in Python 3.7 and 3.8 environments. Moreover, we configure CircleCI to use a [Docker](#docker) image that comes with Python preinstalled (e.g., `cimg/python:3.8`). You could specify another image based on your needs (e.g., a Docker image tailored to your project). Notice how the runtime environment is simply a Linux machine in which you can install any dependency. For example, the `Python38` workflow installs the `wget` command using `apt-get install`.
 
+
 <img src="gifs/circleci.gif" width="650" />
+
 
 You can view the status of CI checks beside each commit in the commit history. It is even possible to prevent merging pull requests until all checks have passed.
 
+
 <img src="gifs/circleci_commits.gif" width="650" />
+
 
 Finally, for any repository in which CircleCI is used, you can get a status badge that indicates the "build status". This may indicate "failed" if, e.g., your unit tests failed.
 
