@@ -93,7 +93,7 @@ Take a look at the [example makefile](https://github.com/aldro61/devtools_tutori
 
 ## Docker
 
-Docker is an extremely useful tool that I use daily. You may want to use it if you need your code to run smoothly on any platform. It may also be useful to ship a fully functional runtime environment in case your code relies on many dependencies (possibly complicated to install). This video by `TechSquidTV` explains it way better than I could. See please watch this: 
+Docker is an extremely useful tool that I use daily. You may want to use it if you need your code to run smoothly on any platform. It may also be useful to ship a fully functional runtime environment in case your code relies on many dependencies (possibly complicated to install). I personnally use it to run research code on my computer and on a cluster in the exact same conditions. This video by `TechSquidTV` explains it way better than I could. See please watch this: 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_dfLOzuIg2o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
