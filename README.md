@@ -13,7 +13,7 @@ This repositority contains a list of software development tools that I find usef
 
 ## Git + GitHub
 
-Git is a source code management tool that allows a group of people working collaboratively to track changes to the code.
+[Git](https://en.wikipedia.org/wiki/Git) is a source code management tool that allows a group of people working collaboratively to track changes to the code. [GitHub](https://github.com/) is a website that hosts
 
 * [Tutorial: basics of git and GitHub](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners)
 * [Collaborating with GitHub](https://guides.github.com/introduction/flow/)
